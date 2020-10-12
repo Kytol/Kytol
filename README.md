@@ -7,7 +7,7 @@
 
 - 📝  I regulary write articles on: []()
 
-- 📫  How to reach me: **afeatureaday@gmail.com**
+- 📫  How to reach me: **jannematiaskytola@gmail.com**
 
 
 <h3> Interested in the following and more </h3>
