@@ -3,9 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kytol" alt="kytol" /> </p>
 <!-- 
-- 👨‍💻  All of my projects are available at: []()
-
-- 📝  I regulary write articles on: []()
+👨‍💻  All of my projects are available at: []()
+📝  I regulary write articles on: []()
 -->
 - 📫  How to reach me: **jannematiaskytola@gmail.com**
 
