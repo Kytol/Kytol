@@ -6,7 +6,7 @@
 👨‍💻  All of my projects are available at: []()
 📝  I regulary write articles on: []()
 -->
-📫  Come say hi: jannematiaskytola@gmail.com
+📫  Let's get in touch: jannematiaskytola@gmail.com
 
 
 <h3 align="center"> Interested in the following and more </h3>
