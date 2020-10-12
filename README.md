@@ -1,5 +1,5 @@
 <h1 align="center">Hi, welcome to my Github profile 👋</h1>
-<h3 align="center">Open for work! Uusimaa, Finland.</h3>
+<h3 align="center">I'm open for work! Uusimaa, Finland.</h3>
 
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=kytol" alt="kytol" /> </p>
 <!-- 
