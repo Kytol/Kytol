@@ -1,12 +1,13 @@
-<h1 align="center">Hi, welcome to my Github profile 👋</h1>
-<h3 align="center">I'm open for work! Uusimaa, Finland.</h3>
+<h1 align="center">Welcome to my Github profile 👋</h1>
+<h3 align="center">Open to work!</h3>
 
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=kytol" alt="kytol" /> </p>
 <!-- 
 👨‍💻  All of my projects are available at: []()
 📝  I regulary write articles on: []()
 -->
-📫  Let's get in touch: jannematiaskytola@gmail.com
+💻 You can find some of my side- & school projects here at github, but not code written at work or unfinished projects.
+📫 Let's get in touch: jannematiaskytola@gmail.com
 
 
 <h3 align="center"> Interested in the following and more </h3>
