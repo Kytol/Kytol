@@ -1,1 +1,0 @@
-import{Nn as tk,Rn as v,f as CI}from"./chunk-C_joL-rx.js";var a=class i{i18n=v(CI);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=tk({name:`t`,type:i,pure:!1})};export{a as t};
