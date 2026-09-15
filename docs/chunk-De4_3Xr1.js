@@ -1,0 +1,1 @@
+import{S as St}from"./chunk-BoVp8r32.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[St]:{kind:o,id:i,title:e}}})}export{p as t};

@@ -1,0 +1,1 @@
+function n(e,t){return[`/app/groups`,e,t]}function o(e){return r(e)||`chat`}function r(e){return e.includes(`/meetings`)?`meetings`:e.includes(`/notes`)?`notes`:e.includes(`/tasks`)?`tasks`:e.includes(`/chat`)?`chat`:``}export{o as n,r,n as t};
