@@ -1,0 +1,1 @@
+function e(){return typeof matchMedia==`function`&&matchMedia(`(prefers-reduced-motion: reduce)`).matches}function t(){return typeof document<`u`&&document.documentElement.classList.contains(`reduce-motion`)?!0:e()}export{t as n,e as t};

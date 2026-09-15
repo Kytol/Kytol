@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Team Space">
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".28" />
+      <stop offset="46%" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="9" fill="#5e6ad2" />
+  <rect width="32" height="32" rx="9" fill="url(#sheen)" />
+  <text
+    x="16"
+    y="16.2"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Segoe UI, Inter, system-ui, sans-serif"
+    font-size="14"
+    font-weight="700"
+    fill="#fff"
+    letter-spacing="-1.1"
+  >TS</text>
+</svg>

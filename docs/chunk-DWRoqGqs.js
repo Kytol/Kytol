@@ -1,0 +1,1 @@
+function d(e,t,n){let i=new Set(e.map(r=>r.id)),T=e.reduce((r,u)=>Math.min(r,n(u)),Number.POSITIVE_INFINITY),o=Number.isFinite(T)?t.filter(r=>!i.has(r.id)&&n(r)<T):[];return[...e,...o]}function m(e,t,n){let i=new Set(e.map(n));return[...e,...t.filter(T=>!i.has(n(T)))]}function s(e,t){return e.length?e.reduce((n,i)=>Math.min(n,t(i)),t(e[0])):0}export{m as n,s as r,d as t};
