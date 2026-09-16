@@ -1,0 +1,1 @@
+import{p as Ki}from"./chunk-2tQPNyZ7.js";function s(r){let t=r.photoUrl?.trim()??``;return e(t)?t:`${Ki.apiUrl}/me/photo?t=${r.updatedAt}`}function e(r){let t=r.trim();return t.startsWith(`data:image/`)||(t.startsWith(`/`)||t.startsWith(`./`))&&!t.startsWith(`/api`)}export{s as n,e as t};
