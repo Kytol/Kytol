@@ -1,0 +1,1 @@
+import{p as Ki}from"./chunk-D56txrd1.js";import{r as j,t as C}from"./chunk-DnXiamhG.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?C(o):`${Ki.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return j(t)}export{n,m as t};

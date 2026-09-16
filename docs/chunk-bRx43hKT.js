@@ -1,0 +1,1 @@
+import{Cn as ok,Q as TI,Rn as v}from"./chunk-DUmP_BYw.js";var a=class i{i18n=v(TI);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=ok({name:`t`,type:i,pure:!1})};export{a as t};
