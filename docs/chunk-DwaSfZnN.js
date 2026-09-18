@@ -1,1 +1,0 @@
-function o(r,...n){let e=r.trim().toLowerCase();return e?n.some(t=>(t??``).toLowerCase().includes(e)):!0}export{o as t};

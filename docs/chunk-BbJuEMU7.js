@@ -1,1 +1,0 @@
-var e=`0.1.0`;var n=[{version:`0.1.0`,released:!1,date:``,itemKeys:[`changelogPending`]}];export{n,e as t};

@@ -1,0 +1,1 @@
+import{w as Hr}from"./chunk-CQmvgwDa.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[Hr]:{kind:o,id:i,title:e}}})}export{p as t};

@@ -1,0 +1,1 @@
+function e(n){let t=n;return String(t.detail?.value??t.target?.value??``)}export{e as t};
