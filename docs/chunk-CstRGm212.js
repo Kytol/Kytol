@@ -1,0 +1,1 @@
+import{et as To,s as Ar,zt as ko}from"./chunk-BnOOdzZa.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?ko(o):`${Ar.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return To(t)}export{n,m as t};

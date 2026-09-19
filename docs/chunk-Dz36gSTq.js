@@ -1,0 +1,1 @@
+import{Yt as fk,mt as V1,zn as v}from"./chunk-C5I26X6C.js";var a=class i{i18n=v(V1);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=fk({name:`t`,type:i,pure:!1})};export{a as t};
