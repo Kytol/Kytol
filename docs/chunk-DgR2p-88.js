@@ -1,0 +1,1 @@
+import{Rn as v,S as FI,Tn as pk}from"./chunk-DMbGpqRN.js";var a=class i{i18n=v(FI);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=pk({name:`t`,type:i,pure:!1})};export{a as t};
