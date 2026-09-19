@@ -1,1 +1,0 @@
-import{Et as ir}from"./chunk-s1vDTzhc.js";import{r as j,t as C}from"./chunk-C4tdrB7K.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?C(o):`${ir.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return j(t)}export{n,m as t};
