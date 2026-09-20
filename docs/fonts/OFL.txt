@@ -1,0 +1,5 @@
+Inter (OFL)
+
+These variable woff2 files are Inter, licensed under the SIL Open Font License 1.1.
+Source: fontsource inter vf 5.2.8 (latin / latin-ext / italic).
+Runtime loads are same-origin `/fonts/*` only.

@@ -1,1 +1,0 @@
-import{an as ti}from"./chunk-BnOOdzZa.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[ti]:{kind:o,id:i,title:e}}})}export{p as t};
