@@ -1,0 +1,1 @@
+import{rn as ui}from"./chunk-Chlcvd_k.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[ui]:{kind:o,id:i,title:e}}})}export{p as t};

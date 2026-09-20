@@ -1,0 +1,1 @@
+import{It as np,c as Cr,en as tp}from"./chunk-Chlcvd_k.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?np(o):`${Cr.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return tp(t)}export{n,m as t};
