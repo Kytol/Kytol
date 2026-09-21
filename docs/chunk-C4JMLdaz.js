@@ -1,1 +1,0 @@
-import{Bn as v,cn as mk,mt as U1}from"./chunk-Dzm5Ul3P.js";var a=class i{i18n=v(U1);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=mk({name:`t`,type:i,pure:!1})};export{a as t};
