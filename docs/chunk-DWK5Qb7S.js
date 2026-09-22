@@ -1,1 +1,0 @@
-import{Un as v,_t as YI,pn as kw}from"./chunk-DDRNsANE.js";var a=class i{i18n=v(YI);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=kw({name:`t`,type:i,pure:!1})};export{a as t};
