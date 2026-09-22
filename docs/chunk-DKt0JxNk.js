@@ -1,1 +1,0 @@
-import{Hn as v,Jn as wk,_t as YS}from"./chunk-DxwNc-Jz.js";var a=class i{i18n=v(YS);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=wk({name:`t`,type:i,pure:!1})};export{a as t};

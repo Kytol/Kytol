@@ -12,3 +12,11 @@
 html {
   font-family: Inter, system-ui, sans-serif;
 }
+
+html.ion-palette-dark {
+  color-scheme: dark;
+}
+
+html:not(.ion-palette-dark) {
+  color-scheme: light;
+}
