@@ -1,1 +1,0 @@
-import{I as K1,Vn as v,sn as kk}from"./chunk-CDShZVRV.js";var a=class i{i18n=v(K1);transform(r){return this.i18n.locale(),this.i18n.t(r)}static ɵfac=function(o){return new(o||i)};static ɵpipe=kk({name:`t`,type:i,pure:!1})};export{a as t};
