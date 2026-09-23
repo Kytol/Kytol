@@ -1,1 +1,0 @@
-import{Dt as ip,pt as _r,qt as sp}from"./chunk-OZFeET17.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?sp(o):`${_r.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return ip(t)}export{n,m as t};
