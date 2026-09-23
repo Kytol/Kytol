@@ -8,7 +8,6 @@ const PRECACHE_URLS = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
-  '/fonts/inter.css',
   '/fonts/inter-latin-wght.woff2',
   '/favicon_t_192.png',
   '/favicon_t_512.png',
