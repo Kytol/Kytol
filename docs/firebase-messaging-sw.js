@@ -85,9 +85,13 @@ async function spaCacheFirst(request) {
     void refreshSpa(cache, request);
     return cached;
   }
-  const response = await fetch(request);
-  await putIfCacheable(cache, request, response);
-  return response;
+  try {
+    const response = await fetch(request);
+    await putIfCacheable(cache, request, response);
+    return response;
+  } catch {
+    return new Response('', { status: 504, statusText: 'Gateway Timeout' });
+  }
 }
 
 async function precacheShell() {
@@ -133,16 +137,22 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-/* Cache-first same-origin GET so the downloaded SPA paints from disk.
- * Keep a fetch listener for every request so Chromium still treats this as installable.
- * localhost stays on the network so ng serve is not stuck on a stale shell. */
-self.addEventListener('fetch', (event) => {
-  if (!shellCacheEnabled() || bypassSpaCache(event.request)) {
-    event.respondWith(fetch(event.request));
-    return;
-  }
-  event.respondWith(spaCacheFirst(event.request));
-});
+/* Cache-first same-origin GET so a published SPA paints from disk.
+ * No fetch listener on localhost: a listener that does not answer still makes
+ * Chrome report "The FetchEvent resulted in a network error response: the
+ * promise was rejected" when ng serve drops or aborts the navigation. */
+if (shellCacheEnabled()) {
+  self.addEventListener('fetch', (event) => {
+    if (bypassSpaCache(event.request)) {
+      return;
+    }
+    event.respondWith(
+      spaCacheFirst(event.request).catch(
+        () => new Response('', { status: 504, statusText: 'Gateway Timeout' }),
+      ),
+    );
+  });
+}
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'zzz-clear-spa-cache') {

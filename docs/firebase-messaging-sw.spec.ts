@@ -22,5 +22,6 @@ describe('firebase-messaging-sw', () => {
     expect(sw).toContain('bypassSpaCache');
     expect(sw).toContain('shellCacheEnabled');
     expect(sw).toContain("host !== 'localhost'");
+    expect(sw).not.toContain('respondWith(fetch(');
   });
 });
