@@ -1,0 +1,1 @@
+import{Zt as uc,en as vr,gt as cc}from"./chunk-XXqoKHjn.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?cc(o):`${vr.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return uc(t)}export{n,m as t};
