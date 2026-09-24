@@ -1,1 +1,0 @@
-import{Dt as gi}from"./chunk-XXqoKHjn.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[gi]:{kind:o,id:i,title:e}}})}export{p as t};
