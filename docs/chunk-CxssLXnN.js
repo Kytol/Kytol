@@ -1,0 +1,1 @@
+import{M as Pr,U as Tc,i as Cc}from"./chunk-CxzO89g_.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?Cc(o):`${Pr.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return Tc(t)}export{n,m as t};
