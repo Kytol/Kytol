@@ -3,7 +3,10 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 
-const sw = readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), 'firebase-messaging-sw.js'), 'utf8');
+const sw = readFileSync(
+  resolve(dirname(fileURLToPath(import.meta.url)), 'firebase-messaging-sw.js'),
+  'utf8',
+);
 
 describe('firebase-messaging-sw', () => {
   it('does not import Firebase before it can answer the first navigation', () => {

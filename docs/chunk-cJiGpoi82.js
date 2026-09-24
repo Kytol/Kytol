@@ -1,1 +1,0 @@
-import{yt as fi}from"./chunk-CxzO89g_.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[fi]:{kind:o,id:i,title:e}}})}export{p as t};
