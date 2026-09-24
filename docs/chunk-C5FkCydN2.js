@@ -1,1 +1,0 @@
-import{dt as _r,ft as ac,vt as dc}from"./chunk-B3IGErAG.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?dc(o):`${_r.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return ac(t)}export{n,m as t};
