@@ -1,1 +1,0 @@
-import{L as Kr,Q as Qc,yn as zc}from"./chunk-2_fOtqk_.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?Qc(o):`${Kr.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return zc(t)}export{n,m as t};

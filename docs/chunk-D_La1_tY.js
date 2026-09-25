@@ -1,1 +1,0 @@
-import{J as Oi}from"./chunk-2_fOtqk_.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[Oi]:{kind:o,id:i,title:e}}})}export{p as t};
