@@ -1,0 +1,1 @@
+import{Lt as ip,nn as sp,ut as Xr}from"./chunk-WFdL8VM_.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?sp(o):`${Xr.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return ip(t)}export{n,m as t};
