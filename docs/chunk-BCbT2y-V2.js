@@ -1,1 +1,0 @@
-import{Z as Qc,pn as wr,vn as zc}from"./chunk-_nocah2-.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?Qc(o):`${wr.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return zc(t)}export{n,m as t};

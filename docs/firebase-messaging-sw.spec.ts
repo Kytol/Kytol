@@ -17,11 +17,17 @@ describe('firebase-messaging-sw', () => {
   });
 
   it('serves the downloaded SPA from the disk cache, except on localhost', () => {
-    expect(sw).toContain("const SPA_SHELL_CACHE = 'zzz-spa-v1'");
+    expect(sw).toContain("const SPA_SHELL_CACHE = 'zzz-spa-v2'");
     expect(sw).toContain('spaCacheFirst');
     expect(sw).toContain('bypassSpaCache');
     expect(sw).toContain('shellCacheEnabled');
     expect(sw).toContain("host !== 'localhost'");
     expect(sw).not.toContain('respondWith(fetch(');
+  });
+
+  it('does not answer modulepreload / script fetches (Chrome cross-world mismatch)', () => {
+    expect(sw).toContain("request.destination === 'script'");
+    expect(sw).toContain("request.destination === 'style'");
+    expect(sw).toContain("request.destination === 'worker'");
   });
 });

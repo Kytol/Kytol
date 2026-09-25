@@ -3,7 +3,7 @@
  * Sneak-peek stores the demo in sessionStorage and has no Firebase project,
  * so this worker does not importScripts Firebase. Those scripts used to block
  * the first navigation (Chrome splash) for a couple of seconds. */
-const SPA_SHELL_CACHE = 'zzz-spa-v1';
+const SPA_SHELL_CACHE = 'zzz-spa-v2';
 const PRECACHE_URLS = [
   '/',
   '/index.html',
@@ -39,6 +39,18 @@ function bypassSpaCache(request) {
     return true;
   }
   if (url.origin !== self.location.origin) {
+    return true;
+  }
+  /* Angular injects modulepreload for hashed chunks. If this worker answers
+   * those fetches, Chrome drops the preload as a cross-world SW mismatch and
+   * then warns that the preload was unused. Let script/style hit the network. */
+  if (
+    request.destination === 'script' ||
+    request.destination === 'style' ||
+    request.destination === 'worker' ||
+    request.destination === 'audioworklet' ||
+    request.destination === 'sharedworker'
+  ) {
     return true;
   }
   const path = url.pathname;
