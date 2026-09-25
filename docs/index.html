@@ -8,6 +8,15 @@
     <meta name="description" content="Pandakarhu demo. Local preview only — nothing is sent to a server.">
     <meta name="robots" content="noindex, nofollow">
     <script>
+      /* GitHub Pages redirects /auth/login to /auth/login/ when that folder exists. */
+      try {
+        var bootPath = location.pathname;
+        if (bootPath.length > 1 && bootPath.charAt(bootPath.length - 1) === '/') {
+          history.replaceState(null, '', bootPath.replace(/\/+$/, '') + location.search + location.hash);
+        }
+      } catch (e) {}
+    </script>
+    <script>
       /* Theme + locale before paint. Do not read offset/client/scroll metrics here. */
       try {
         var root = document.documentElement;
