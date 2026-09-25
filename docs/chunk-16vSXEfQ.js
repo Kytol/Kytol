@@ -1,0 +1,1 @@
+import{b as Hi}from"./chunk-BCRE-C7P.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[Hi]:{kind:o,id:i,title:e}}})}export{p as t};
