@@ -1,0 +1,1 @@
+import{Ct as ep,gt as Zc,pt as Xc}from"./chunk-Cor6uV0m.js";function m(t){let o=t.photoUrl?.trim()??``;return n(o)?ep(o):`${Zc.apiUrl}/me/photo?t=${t.updatedAt}`}function n(t){return Xc(t)}export{n,m as t};

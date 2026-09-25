@@ -1,0 +1,1 @@
+import{Y as Pi}from"./chunk-Cor6uV0m.js";function p(r,n,o,i,e){return r.navigate([`/app/groups`,n,`chat`],{state:{[Pi]:{kind:o,id:i,title:e}}})}export{p as t};
